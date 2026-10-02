@@ -15,4 +15,10 @@ public class Salutation {
   static String saluerParHeureFrancaise(String nom) {
     return "Hello " + nom + " il est 13h25 !!";
   }
+
+  static String saluerAllemand(String nom) {
+    // TODO: chaque membre du groupe ajoute ICI sa salutation, dans sa propre branche.
+    // Salutation en Allemand
+    return "Hallo soutenu, " + nom + "!";
+  }
 }
