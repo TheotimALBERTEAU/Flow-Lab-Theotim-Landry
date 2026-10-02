@@ -14,4 +14,8 @@ public class Salutation {
   static String saluerParHeure(String nom) {
     return "Hello " + nom + " il est 13h25 !!";
   }
+
+  static String saluerVersionTutoyee(String nom) {
+    return "Hello " + nom + " version tutoyée !!";
+  }
 }
