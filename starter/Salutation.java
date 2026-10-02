@@ -9,6 +9,12 @@ public class Salutation {
   static String saluer(String nom) {
     // TODO: chaque membre du groupe ajoute ICI sa salutation, dans sa propre branche.
     // Salutation en Allemand
-    return "Hallo, " + nom + "!";
+    return "Hello, " + nom + "!";
+  }
+
+  static String saluerAllemand(String nom) {
+    // TODO: chaque membre du groupe ajoute ICI sa salutation, dans sa propre branche.
+    // Salutation en Allemand
+    return "Hallo soutenu, " + nom + "!";
   }
 }
