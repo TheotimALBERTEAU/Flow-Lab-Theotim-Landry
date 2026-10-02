@@ -4,7 +4,7 @@ public class Salutation {
 
   public static void main(String[] args) {
     System.out.println(saluer("user"));
-    System.out.println(saluerParHeure("user"));
+    System.out.println(saluerParHeureFrancaise("user"));
     System.out.println(saluerVersionTutoyee("user"));
   }
 
@@ -13,7 +13,7 @@ public class Salutation {
     return "Hello, " + nom + " il fallait une heure donc il est 13h44 !";
   }
 
-  static String saluerParHeure(String nom) {
+  static String saluerParHeureFrancaise(String nom) {
     return "Hello " + nom + " il est 13h25 !!";
   }
 
