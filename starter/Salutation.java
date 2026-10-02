@@ -3,11 +3,15 @@
 public class Salutation {
 
   public static void main(String[] args) {
-    System.out.println(saluer("user"));
+    System.out.println(saluerParHeure("user"));
   }
 
   static String saluer(String nom) {
     // TODO: chaque membre du groupe ajoute ICI sa salutation, dans sa propre branche.
     return "Hello, " + nom + "!";
+  }
+
+  static String saluerParHeure(String nom) {
+    return "Hello " + nom + " il est 13h25 !!";
   }
 }
