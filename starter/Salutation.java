@@ -5,7 +5,6 @@ public class Salutation {
   public static void main(String[] args) {
     System.out.println(saluer("user"));
     System.out.println(saluerParHeureFrancaise("user"));
-    System.out.println(saluerVersionTutoyee("user"));
   }
 
   static String saluer(String nom) {
@@ -15,9 +14,5 @@ public class Salutation {
 
   static String saluerParHeureFrancaise(String nom) {
     return "Hello " + nom + " il est 13h25 !!";
-  }
-
-  static String saluerVersionTutoyee(String nom) {
-    return "Hello " + nom + " version tutoyée !!";
   }
 }
