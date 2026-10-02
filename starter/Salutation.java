@@ -3,7 +3,9 @@
 public class Salutation {
 
   public static void main(String[] args) {
+    System.out.println(saluer("user"));
     System.out.println(saluerParHeure("user"));
+    System.out.println(saluerVersionTutoyee("user"));
   }
 
   static String saluer(String nom) {
