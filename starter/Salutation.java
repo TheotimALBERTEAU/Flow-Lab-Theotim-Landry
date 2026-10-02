@@ -9,7 +9,7 @@ public class Salutation {
 
   static String saluer(String nom) {
     // TODO: chaque membre du groupe ajoute ICI sa salutation, dans sa propre branche.
-    return "Hello, " + nom + " il fallait une heure donc il est 13h44 !";
+    return "Hello, il fallait une heure donc il est 13h44 !";
   }
 
   static String saluerParHeureFrancaise(String nom) {
